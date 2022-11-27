@@ -1,0 +1,10 @@
+@mixin style_principalescoberturas($color_letra , $color_fondo){
+    padding: 15px; 
+    margin: 20px;
+    text-decoration: underline; 
+    background-color: $color_fondo; 
+    color: $color_letra; 
+    font-family: 'Helvetica', sans-serif; 
+    font-family: $fuente_parrafo;
+    border: solid 5px;
+}
